@@ -3,17 +3,20 @@
 //Input: 4
 //Output: 0 1 1 2
 
-
-#include<stdio.h>
-int main()
+#include <stdio.h>
+int main() 
 {
-    int n;
-    printf("Enter the value for n\n");
+    int i, n, a = 0, b = 0 , c;
+   printf("Enter the value for n\n");
     scanf("%d", &n);
-
-    //Write your code here
-    for(int i=1;i<=n;i++)
-    
+  
+    for (i = 1; i <= n; i++) 
+    {
+        printf("%d, ", a);
+        c = a + b;
+        a = b;
+        b = c;
+    }
 
     return 0;
 }

@@ -12,6 +12,7 @@ int main()
     scanf("%d", &n);
 
     //Write your code here
+    for(int i=1;i<=n;i++)
     
 
     return 0;

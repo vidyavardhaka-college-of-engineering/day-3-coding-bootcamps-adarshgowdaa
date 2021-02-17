@@ -6,11 +6,11 @@
 #include <stdio.h>
 int main() 
 {
-    int i, n, a = 0, b = 0 , c;
+    int i, n, a = 0 , b = 1, c = 0;
    printf("Enter the value for n\n");
     scanf("%d", &n);
   
-    for (i = 1; i <= n; i++) 
+    for (i = 0; i < n; i++) 
     {
         printf("%d, ", a);
         c = a + b;
